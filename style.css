@@ -7,11 +7,38 @@ body>header{
     color: white;
     font-family: poppins;
     font-size: 36px;
+    text-align: center; 
+    
+    background-color:rgb(47, 60, 238) ;
+    border: 20px solid rgb(47, 60, 238);
 
 }
 
 nav{
     font-family: poppins;
+    background-color:rgb(47, 60, 238) ;
+    border: 20px solid rgb(47, 60, 238);
+   
+}
+
+nav ul{
+    list-style-type:none;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    justify-content: space-evenly;
+
+
+}
+
+nav ul li{
+
+}
+
+
+
+ul,li{
+    color:white;
 }
 article>header{
     color: white;
