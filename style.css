@@ -1,5 +1,6 @@
 body{
     background-color: rgb(47, 137, 255);
+
 }
 
 body>header{
@@ -7,6 +8,10 @@ body>header{
     font-family: poppins;
     font-size: 36px;
 
+}
+
+nav{
+    font-family: poppins;
 }
 article>header{
     color: white;
@@ -28,4 +33,5 @@ table{
 th,td{
     border: 1px solid black; 
     text-align: center; 
+    font-family: poppins;
 }
