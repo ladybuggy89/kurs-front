@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(47, 137, 255);
+}
+
+body>header{
+    color: white;
+    font-family: poppins;
+    font-size: 36px;
+
+}
+article>header{
+    color: white;
+    font-family: poppins;  
+}
+
+section>header{
+    color: white;
+    font-family: poppins;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    
+}
+th,td{
+    border: 1px solid black; 
+    text-align: center; 
+}
