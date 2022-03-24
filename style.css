@@ -32,7 +32,22 @@ nav ul{
 }
 
 nav ul li{
-
+margin: 10px;
+border: 1px solid rgb(47, 137, 255);
+padding: 10px 15px;
+border-radius: 15px;
+background-color:rgb(47, 137, 255);
+cursor:pointer;
+transition: .5s;
+}
+nav ul li:hover{
+    border-color: rgb(8, 89, 196);
+    background-color: rgb(8, 89, 196);
+}
+nav ul li:active{
+    border-color: rgb(119, 172, 241);
+    background-color:rgb(119, 172, 241);
+    transition: 2s;
 }
 
 
