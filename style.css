@@ -90,7 +90,7 @@ td:hover{
 }
 
 .cookies{
-    border:2px dashed white;
+    border:2px solid rgba(0, 0, 255, 0.76);
     position: fixed;
     bottom: 0;
     right: 0;
