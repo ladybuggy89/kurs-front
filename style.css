@@ -1,11 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(47, 137, 255);
-
+    font-family: 'Poppins', sans-serif;
 }
 
 body>header{
     color: white;
-    font-family: poppins;
+
     font-size: 36px;
     text-align: center; 
     
@@ -15,10 +19,12 @@ body>header{
 }
 
 nav{
-    font-family: poppins;
-    background-color:rgb(47, 60, 238) ;
-    border: 20px solid rgb(47, 60, 238);
    
+    background-color:rgb(47, 60, 238) ;
+    border: 5px solid rgb(47, 60, 238);
+    position:sticky;
+    top:0;
+
 }
 
 nav ul{
@@ -41,13 +47,14 @@ cursor:pointer;
 transition: .5s;
 }
 nav ul li:hover{
-    border-color: rgb(8, 89, 196);
-    background-color: rgb(8, 89, 196);
+    border-color:rgb(119, 172, 241);
+    background-color: rgb(119, 172, 241);
 }
 nav ul li:active{
-    border-color: rgb(119, 172, 241);
-    background-color:rgb(119, 172, 241);
-    transition: 2s;
+    border-color: black;
+    background-color:rgb(8, 89, 196);
+    transition: none;
+    color: rgba(95, 94, 94);
 }
 
 
@@ -57,12 +64,12 @@ ul,li{
 }
 article>header{
     color: white;
-    font-family: poppins;  
+    
 }
 
 section>header{
     color: white;
-    font-family: poppins;
+    
 }
 table{
     border: 1px solid black;
@@ -75,5 +82,23 @@ table{
 th,td{
     border: 1px solid black; 
     text-align: center; 
-    font-family: poppins;
+   
+}
+
+td:hover{
+  background-color: blueviolet;  
+}
+
+.cookies{
+    border:2px dashed white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.76);
+    display:flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    align-items: center;
+    color: white;   
 }
