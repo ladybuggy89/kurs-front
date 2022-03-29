@@ -7,9 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
-    text-align: center;
-}
+
 
 body>header{
     color: white;
@@ -121,9 +119,7 @@ img{
        flex:1;
    }
 
-   .h2{
-       text-align: center;
-   }
+   
    
 }
 section>header{
