@@ -7,7 +7,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body>header{
     color: white;
@@ -43,7 +45,7 @@ nav ul{
 
 }
 
-nav ul li{
+nav ul li {
 margin: 10px;
 border:linear-gradient(to right,#4839d4 0%,#156aca 100%);
 padding: 10px 15px;
@@ -51,6 +53,7 @@ border-radius: 15px;
 background-color:rgb(47, 137, 255);
 cursor:pointer;
 transition: .5s;
+
 }
 nav ul li:hover{
     border-color:linear-gradient(to right,#bd5bdb 0%,#8109a5 100%);
@@ -69,6 +72,12 @@ nav ul li:active{
 
 ul,li{
     color:white;
+    text-decoration: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
 }
 article>header{
     color: white;
@@ -105,7 +114,8 @@ img{
 
 @media (min-width: 768px){
    main>header,
-   main>article{
+   main>article,
+   #contact{
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -120,7 +130,11 @@ img{
        flex:1;
    }
 
-   
+   .tableField,
+   .headerText,
+   #contact form{
+       flex:1;
+   }
    
 }
 section>header{
@@ -159,4 +173,44 @@ td:hover{
     padding: 0 5px;
     align-items: center;
     color: white;   
+}
+
+
+
+#contact{
+    padding: 0 2em;
+}
+
+#contact form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+#contact form input,
+#contact form textarea{
+    background-color: white;
+    width:80%;
+    padding: .5rem;
+    outline: 0;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    font-family: inherit;
+    
+
+}
+
+#contact form button{
+    background-color: white;
+    padding: .2rem 1rem;
+    outline: 0;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+footer{
+    padding: 1.5em;
+    text-align: left;
 }

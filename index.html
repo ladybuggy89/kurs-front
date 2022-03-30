@@ -13,16 +13,17 @@
 </head>
 
 <body>
+    
    <header>
         <h1>Marta - wizytówka</h1>
    </header>
 
    <nav>
     <ul>
-        <li class="li">Strona główna</li>
-        <li class="li">Projekty</li>
-        <li class="li">Wykształcenie</li>
-        <li class="li">Kontakt</li>
+        <li class="li"><a href="#home">Strona Główna</a>
+        <li class="li"><a href="#projects">Projekty</a></li>
+        <li class="li"><a href="#school">Wykształcenie</a></li>
+        <li class="li"><a href="#contact">Kontakt</a></li>
        
         </ul>
        </ul>
@@ -35,7 +36,7 @@
        " alt="Profile Photo">
     </div> 
        <div class="headerText">
-           <h2>O mnie</h2>
+           <h2 id="home">O mnie</h2>
            <p>
                <br>Lorem ipsum dolor sit amet.</br>
                Lorem ipsum dolor sit amet.
@@ -55,12 +56,15 @@
 
 <div class="tableField">
 <table>
+    <thead>
     <tr>
         <th>lp</th>
         <th>Technologia</th>
         <th>Moduł</th>
         <th>ocena</th>
     </tr>
+</thead>
+<tbody>
     <tr>
         <td rowspan="2">1</td>
         <td rowspan="2">HTML</td>
@@ -77,37 +81,45 @@
      <td colspan="2">nie dotyczy</td>
  </tr>
 </table>
+</tbody>
 </div>
 
 </article>
 
 <section>
     <header class="headerText">
-<h2 >Projekty</h2>
+<h2 id="projects">Projekty</h2>
 </header>
 </section>
-<section>
-    <header class="headerText">
-        <h2>Kontakt</h2>
-</header>
+
+
+
 </section>
 </main>
 
+<section id="contact">
+    <header class="headerText">
+        <h2>Kontakt</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse atque ipsum voluptate nihil, eaque maxime molestias ab explicabo aperiam temporibus, sequi delectus, quidem reiciendis enim rem corporis magnam suscipit quaerat.
+
+        </p>
+</header>
 
 <form action="/index.htm">
 <input type="email" name="" id="" placeholder="e-mail">
 <input type="text" name="" id="" placeholder="tytuł">
 <textarea name id cols="30" rows="10"></textarea>
-<input type="submit" value="WYŚLIJ">
+<button type="submit">WYŚLIJ</button>
 </form>
-
-</article>
+</section>
        
   
-   <footer>
-       STOPKA NÓŻKA KOPYTKO
-   </footer>
-   <div class="cookies">
+<footer>
+ <p>STOPKA NÓŻKA KOPYTKO</p> 
+ <p>&copy; Marta 2022</p>  
+</footer>
+
+<div class="cookies">
     <p>
         Ta strona nie używa plików cookies, joł!
         
